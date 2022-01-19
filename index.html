@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML/CSS Cheatsheet</title>
+    <link rel="stylesheet" href="./styles.css" type="text/css">
+</head>
+<body>
+    <header>
+        <h1>HTML/CSS Cheatsheet</h1>
+    </header>
+    <main>
+        <h2>HTML Cheatsheet</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Tag/Attribute Name</th>
+                    <th>Example</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>&lt;header&gt;&lt;/header&gt;</td>
+                    <td>&lt;header&gt; [child tags and content] &lt;/header&gt;</td>
+                    <td>Semantic way to section off content at the top of the page. Can be used to hold navigation, titles, etc.</td>
+                </tr>
+                <tr>
+                    <td>&lt;main&gt;&lt;/main&gt;</td>
+                    <td>&lt;main&gt; [child tags and content] &lt;/main&gt;</td>
+                    <td>Semantic way to section off main content on the page. Can be used for articles, data, media, etc.</td>
+                </tr>
+                <tr>
+                    <td>&lt;footer&gt;&lt;/footer&gt;</td>
+                    <td>&lt;footer&gt; [child tags and content] &lt;/footer&gt;</td>
+                    <td>Semantic way to section off content at the bottom of the page. Can be used for contact info, about me links, etc.</td>
+                </tr>
+                <tr>
+                    <td>&lt;link&gt;</td>
+                    <td>&lt;link rel="stylesheet" href="style.css"&gt;</td>
+                    <td>Used in the head section to link stylesheet to the html document.</td> 
+                </tr>
+                <tr>
+                    <td>&lt;img&gt;</td>
+                    <td>&lt;img src="image.jpeg" alt="Description of image." width="150px" height="100px"&gt;</td>
+                    <td>Used to add images and photos to html document.</td> 
+                </tr>
+                <tr>
+                    <td>&lt;video&gt;</td>
+                    <td>&lt;video width="1920px" height="1080px" controls&gt;<br>&lt;source src="video.mp4" type="video/mp4"&gt;<br>Your browser does not support this video.<br>&lt;/video&gt;</td>
+                    <td>Used to add videos to html document.</td> 
+                </tr>
+                <tr>
+                    <td>&lt;table&gt;&lt;/table&gt;</td>
+                    <td>
+                        &lt;table&gt;<br>
+                            &lt;thead&gt;<br>
+                              &lt;tr&gt;<br>
+                                &lt;th&gt;Month&lt;/th&gt;<br>
+                                &lt;th&gt;Savings&lt;/th&gt;<br>
+                              &lt;/tr&gt;<br>
+                            &lt;/thead&gt;<br>
+                            &lt;tbody&gt;<br>
+                              &lt;tr&gt;<br>
+                                &lt;td&gt;January&lt;/td&gt;<br>
+                                &lt;td&gt;$100&lt;/td&gt;<br>
+                              &lt;/tr&gt;<br>
+                            &lt;/tbody&gt;<br>
+                            &lt;tfoot&gt;<br>
+                              &lt;tr&gt;<br>
+                                &lt;td&gt;Sum&lt;/td&gt;<br>
+                                &lt;td&gt;$180&lt;/td&gt;<br>
+                              &lt;/tr&gt;<br>
+                            &lt;/tfoot&gt;<br>
+                          &lt;/table>&gt;<br>
+                    </td>
+                    <td>Used for organizing information or data into a table with rows and columns.</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>CSS Cheatsheet</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Tag/Attribute Name</th>
+                    <th>Example</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>color</td>
+                    <td>color: white;</td>
+                    <td>Will change text color to white for selected element(s).</td>
+                </tr>
+                <tr>
+                    <td>background-color</td>
+                    <td>background-color: white;</td>
+                    <td>Will change the backgrount color to black for the selected element(s).</td>
+                </tr>
+                <tr>
+                    <td>background-image</td>
+                    <td>background-image: url(./media/photos/pattern.jpeg);</td>
+                    <td>Will change the background image of the selected element(s) to the given image.</td>
+                </tr>
+                <tr>
+                    <td>font-family</td>
+                    <td>font-family: Helvetica;</td>
+                    <td>Changes the font style/family of the selected element(s).</td>
+                </tr>
+                <tr>
+                    <td>font-size</td>
+                    <td>font-size: 100px;</td>
+                    <td>Changes the font size of the seleced element(s).</td>
+                </tr>
+                <tr>
+                    <td>font-weight</td>
+                    <td>font-weight: bold;</td>
+                    <td>Changes the font weight (thickness) of the selected element(s).</td>
+                </tr>
+                <tr>
+                    <td>text-align</td>
+                    <td>text-align: center;</td>
+                    <td>Aligns the text of the selected element(s).</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+    <footer>
+        <p>Created by: Josh Cummings<br>Peoria, AZ<br>January 19th, 2022</p>
+    </footer>
+</body>
+</html>

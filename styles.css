@@ -1,0 +1,55 @@
+* {
+    font-family: Tahoma;
+}
+
+header {
+    background-image: url(./media/images/web_development.jpg);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+h1 {
+
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+body {
+    background-image: linear-gradient(135deg, lightblue, darkblue);
+}
+
+h2 {
+    text-align: center;
+}
+
+table {
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+tr td,
+tr th {
+    border: 1px solid black;
+    
+}
+
+tr td:hover,
+tr th:hover {
+    border: 1px solid black;
+    background-color: skyblue;
+    
+}
+
+thead {
+    background-color: gray;
+}
+
+tbody {
+    background-color: darkgray;
+}
+
+p {
+    padding-top: 50px;
+}
